@@ -1,21 +1,204 @@
-# Investway-DevversMIT License
+<!DOCTYPE html>
+<html lang="en">
+    <head>
 
-Copyright (c) 2021 Londy
+          <!--The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.2.3/firebase-app.js"></script>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+ <!--TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.2.3/firebase-analytics.js"></script>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script> 
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Investway</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="file:///C:/Users/Londy%20Sihawu/Desktop/Investway/dist/signup.html" rel="signup.html.html" />
+        <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+        <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+    </head>
+    <style>
+body {
+        background-image: url('https://my2-cdn.pgimgs.com/cms/news/2017/03/Property-Investment.original.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    </style>
+
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">InvestWay</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Login page.html">LEARN HOW</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Login page.html">TUTORIALS</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Login page.html">LOGIN</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->                      
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-10 align-center">
+                        <h1 class="text-uppercase text-white font-weight-bold">LEARN HOW TO INVEST WITH US</h1>
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 font-weight-light mb-5">Learn how to invest, Brighten your future</p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">What we do</h2>
+                        <hr class="divider light my-4" />
+                    </div >                </div>
+                        <p1 class="text-white-50 mb-4"> An investment company, focused on creating financial security for investors, learners and every individual who is willing to learn about investing. You can access our investment expertise through our unit website.
+
+                            See What We Can Do For You
+                            
+                            We Give you lessons about investing from where you you will have to choose your plan
+                            
+                            Our approach is very easy as we look closely to business and buy shares from them then we sell to our clients and mentor them till they reach their wealth and they are able to gain profit from them
+                            
+                            You only need to subscribe on our website and choose a plan to qualify to invest in our trust. We give our clients the same investment expertise from a student to a business person</p1><br>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 text-center">
+                        <a class="btn btn-light btn-xl js-scroll-trigger" href="learn how.html">Get Started!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services-->
+        <section class="page-section" id="services" text-align= center;>
+            <div class="container">
+                <h2 class="text-center mt-0">At Your Service</h2>
+                <hr class="divider my-4" />
+                <div class="row">
+                    <div class="column text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-gem text-primary mb-3"></i>
+                            <h3 class="h4 mb-2">LEARN HOW TO SAVE</h3>
+                            <p class="text-muted mb-0"></p>A variable interest rate is subject to change over time since it is influenced by the repo rate (set by the South African Reserve Bank). Taking a savings account with a variable interest rate means you earn more interest when the country interest rates go up and earn less when the rate is low.
+
+                            This means, interest being earned on savings accounts is currently low; also interest being paid on loans is low.
+    
+                            
+                        </div>
+                    </div>
+                    <div class="column text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-money flow text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">LEARN HOW TO INVEST</h3>
+                            <p class="text-muted mb-0"></p>A variable interest rate is subject to change over time since it is influenced by the repo rate (set by the South African Reserve Bank). Taking a savings account with a variable interest rate means you earn more interest when the country interest rates go up and earn less when the rate is low.
+
+                            This means, interest being earned on savings accounts is currently low; also interest being paid on loans is low.
+    
+                            
+                        </div>
+                    </div>
+                    <div class="column text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">READY TO INVEST?</h3>
+                            <p class="text-muted mb-0"></p>A variable interest rate is subject to change over time since it is influenced by the repo rate (set by the South African Reserve Bank). Taking a savings account with a variable interest rate means you earn more interest when the country interest rates go up and earn less when the rate is low.
+
+                            This means, interest being earned on savings accounts is currently low; also interest being paid on loans is low.
+    
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        
+
+                    
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <hr class="divider my-4" />
+                        <p class="text-muted mb-5">Ready to start your investment with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                        <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+                        <div>+27 (21) 104-5381</div>
+                    </div>
+                    <div class="col-lg-4 mr-auto text-center">
+                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                        <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
+                        <a class="d-block" href="mailto:londolozasihawu@gmail.com">contact@investway.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container"><div class="small text-center text-muted">Copyright © 2021 - InvestWay</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+    
+        <!-- Third party plugin JS-->
+        <!-- Core theme JS-->
+        <script src="Firebase.js"></script>
+        <script src="index2.js"></script>
+        
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first 
+<script src="/__/firebase/8.2.3/firebase-app.js"></script>
+
+ TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries 
+<script src="/__/firebase/8.2.3/firebase-analytics.js"></script>
+
+ Initialize Firebase 
+<script src="/__/firebase/init.js"></script> -->
+
+
+    </body>
+</html>
