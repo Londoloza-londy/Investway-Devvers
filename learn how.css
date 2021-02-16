@@ -1,0 +1,29 @@
+
+h1 {
+  text-align: center;
+
+}
+body {
+color: white;
+}
+body {
+  color: rgb(235, 229, 229);
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-image:url('https://my2-cdn.pgimgs.com/cms/news/2017/03/Property-Investment.original.jpg');
+  background-repeat: repeat-x;
+  background-position: center;
+    background-color: transparent;
+  background-size: cover;
+  font-family: sans-serif;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
